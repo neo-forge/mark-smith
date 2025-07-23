@@ -4,7 +4,7 @@ import Help from "@/pages/Help";
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/mark-smith">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/help" element={<Help />} />
